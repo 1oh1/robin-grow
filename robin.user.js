@@ -80,7 +80,7 @@ function howLongLeft() { // mostly from /u/Yantrio
         GM_setValue("chatName", name);
         setTimeout(function() {
             var x = "!", n=Math.floor(Math.random()*15); for(var i = 0; i < n; i++)x+="!";
-            $(".text-counter-input").val("[Robin-Settle] I automatically voted to grow, then settle, and so can you! http://tiny.cc/e3khay "+x).submit();
+            $(".text-counter-input").val("I automatically voted to grow, then settle, and so can you! http://tiny.cc/robin-settle "+x).submit();
 
 
         }, 10000);
