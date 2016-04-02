@@ -87,7 +87,7 @@
     // Options end
     $("#robinDesktopNotifier").detach().appendTo("#settingContent");
     // Add version at the end
-    $("#settingContent").append('<div class="robin-chat--sidebar-widget robin-chat--report" style="text-align:center;"><a target="_blank" href="https://github.com/1oh1/robin-settle>robin-settle">robin-settle - Version ' + GM_info.script.version + '</a></div>');
+    $("#settingContent").append('<div class="robin-chat--sidebar-widget robin-chat--report" style="text-align:center;"><a target="_blank" href="https://github.com/1oh1/robin-settle">robin-settle - Version ' + GM_info.script.version + '</a></div>');
     // Settings end
 
     if (!settings["vote"]) {
