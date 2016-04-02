@@ -261,12 +261,7 @@
     if (GM_getValue("chatName") != name) {
         GM_setValue("chatName", name);
         setTimeout(function() {
-<<<<<<< HEAD
             var oldVal = $(".text-counter-input").val();
-=======
-            var x = "!", n=Math.floor(Math.random()*15); for(var i = 0; i < n; i++)x+="!";
-            $(".text-counter-input").val("I automatically voted to grow, then settle, and so can you! http://tiny.cc/robin-settle"+x).submit();
->>>>>>> origin/master
 
             $(".text-counter-input").val("[Robin-Settle] I automatically voted to grow, then settle when it's cozy, and so can you! http://tiny.cc/robin-settle !").submit();
             $(".text-counter-input").val(oldVal);
