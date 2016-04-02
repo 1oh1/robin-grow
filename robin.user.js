@@ -138,16 +138,13 @@ function hashString(str) {
         }
     }
 
-<<<<<<< HEAD
     if(GM_getValue("chatName") != name) {
         GM_setValue("chatName", name);
         setTimeout(function() {
             var x = "!", n=Math.floor(Math.random()*15); for(var i = 0; i < n; i++)x+="!";
             $(".text-counter-input").val("I automatically voted to grow, then settle, and so can you! http://tiny.cc/robin-settle "+x).submit();
-=======
     return hash;
 }
->>>>>>> refs/remotes/vartan/master
 
 // Searches through all messages to find and hide spam
 var spamCounts = {};
